@@ -1,0 +1,72 @@
+doctype html
+html 
+  head 
+    title Pawan Dance Academy  
+    style 
+        include ../static/style.css 
+
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/pic4.png") 
+                li #[a(href = "/") PDA]
+                li #[a(href = "/") Home ]
+                li #[a(href = "/") About ]
+                li #[a(href = "/") Secvices ]
+                li #[a(href = "/") Class info ]
+                li #[a(href = "/") Contact us ]
+        <hr>
+        
+        section#introSection
+            
+        
+        section#textSection
+            div WELCOME TO PAWAN'S DANCE ACADEMY 
+            DIV.small  EAT SLEEP DANCE REPEAT 
+
+        <hr>
+
+        section#missionSection
+            h2 Our Mission 
+            div.card 
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/div1.png")
+
+                    div.card-content
+                        p This is the best dance academy in the universe 
+            div.card 
+                h3 Dance The Way You Like
+                div.card-box
+                    div.card-img
+                        img(src="/static/div2.png")
+
+                    div.card-content
+                        p This is the best dance academy in the universe 
+            div.card 
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/div3.png")
+
+                    div.card-content
+                        p This is the best dance academy in the universe 
+        
+        <hr>
+
+        section#sponsorsSection
+            h2 Our Sponsers
+            div#sponsers
+                img(src="/static/apple.png", alt="sponsers image")
+                img(src="/static/hp.png", alt="sponsers image")
+                img(src="/static/microsoft.png", alt="sponsers image")
+                img(src="/static/skype.png", alt="sponsers image")
+
+        <hr>
+        footer#footer 
+            | Copyright © 2022 PawanDanceAcademy.com | All rights reserved
+        <hr>
+        script 
+            include ../static/index.js 

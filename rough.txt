@@ -1,0 +1,14 @@
+div.carousel slide (data-ride="carousel")
+  div.carousel-inner
+    div.carousel-item active
+      img.d-block w-100 (src="skype.png" alt="First slide")
+    div.carousel-item
+      img.d-block w-100 (src="/static/hp.png" alt="Second slide")
+    div.carousel-item
+      img.d-block w-100 (src="/static/apple.png" alt="Third slide")
+  a.carousel-control-prev (href="#carouselExampleControls" role="button" data-slide="prev")
+     span.carousel-control-prev-icon (aria-hidden="true")
+     span.sr-onlyPrevious
+   a.carousel-control-next (href="#carouselExampleControls" role="button" data-slide="next")
+     span.carousel-control-next-icon (aria-hidden="true")
+     span.sr-onlyNext
